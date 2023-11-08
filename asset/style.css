@@ -52,21 +52,33 @@
 }
 
 @media (max-width:480px) {
-    
-    
-}
 
-@media (max-width:350px) {
-
+     /*-----------------------------------------------------*/
+    /*---VIDEO--------------------------------------------------*/
+    /*-----------------------------------------------------*/
     video {
         position: absolute;
         left: 0;
         top: 0;
-        height:123%;
         z-index: -1;
-        scale: 130%;
+        
+        scale: 100%;
+        
+        padding-top: 2%;
     }
-    
+     /*-----------------------------------------------------*/
+    /*---SECCION NAVEGACION--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    #nav{
+
+        padding: 2%;
+        
+    }
+     /*-----------------------------------------------------*/
+    /*---SECCION PRESENTACION--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+
     #seccion_presentacion{
         background-color: rgba(0, 0, 0, 0.404);
     }
@@ -76,8 +88,8 @@
 
         border-radius: 100%;
         height: 100px;
-        margin: 15px;
-        max-width: 200px;
+        padding-top: 2%;
+        
         
         
     }
@@ -144,26 +156,47 @@
     }
 
     #nuestrasCabañas__title{
-
+        margin: 3%;
         font-family: Playfair italic;
         text-align: center;
 
     }
 
-    
+    #nuestrascabañas__cards{
+        :hover{
+            
+            box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -webkit-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -moz-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+
+            scale: 103%;
+
+        }
+        margin-left: 4%;
+
+    }
     
 
     #nuestrascabañas__cards__indv{
+        
         background-color: #8cb04a;
         width: 20rem;
         margin: 3%;
+        
         font-family: 'Kumbh Sans', sans-serif;
+        :hover{
+            box-shadow: none;
+        }
+       
     }
 
     #nuestrascabañas_card_img{
          padding: 2%;
          padding-top: 3%;
     }
+    /*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 
 
     /*-----------------------------------------------------*/
@@ -175,17 +208,26 @@
         background-color: #8cb04a;
         padding: 50px;
     }
-
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 
     /*-----------------------------------------------------*/
     /*---SECCION CONTACTANOS--------------------------------------------------*/
     /*-----------------------------------------------------*/
 
     #seccion_contacto{
-
+        background-image: url("https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg");
         background-color: #3a7a6c;
         padding: 50px;
         color: white;
+    }
+
+    #contacto_backgr{
+
+        background-color: #265d51ab;
+        margin: -16%;
+        padding: 15%;
     }
 
     #btn_contacto{
@@ -194,18 +236,315 @@
         color: white;
         background-color: #9AC252;
         
+        margin: 5%;
+        
 
     }
+
+    label{
+        padding: 2%;
+    }
+
+    input{
+        padding: 2%;
+    }
+
+    
+}
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 
     /*-----------------------------------------------------*/
     /*---FOOTER--------------------------------------------------*/
     /*-----------------------------------------------------*/
+
+    #footer{
+        background-color: #8cb04a;
+        padding: 4%;
+    }
+
+    #footer_title{
+        color: white;
+        font-family: 'Kumbh Sans', sans-serif;
+        text-align: center;
+        margin: 7%;
+    }
+
+    #footer_img_redes{
+
+        padding: 3%;
+
+       
+    }
+
+    #footer_logo{
+
+       
+
+        :hover{
+
+            scale: 110%;
+
+            border-radius: 50%;
+
+            box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -webkit-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -moz-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+
+        }
+
+    }
+
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+    
+    
+
+
+@media (max-width:350px) {
+
+     /*-----------------------------------------------------*/
+    /*---VIDEO--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        max-height: -50%;
+        scale: 100%;
+        max-width: 600px;
+        padding-top: 2%;
+    }
+     /*-----------------------------------------------------*/
+    /*---SECCION NAVEGACION--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    #nav{
+
+        padding: 2%;
+        
+    }
+     /*-----------------------------------------------------*/
+    /*---SECCION PRESENTACION--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+
+    #seccion_presentacion{
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+    
+    
+    #presentacon_reservaylogo{
+
+        border-radius: 100%;
+        height: 100px;
+        padding-top: 2%;
+        
+        
+        
+    }
+    
+    #boton{
+
+       margin: 2px; 
+       background-color: #9AC252;
+       color: white;
+       scale: 60%;
+    }
+    /*-----------------------------------------------------*/
+    /*---SECCION SOBRE NOSOTROS--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+
+    #seccion_sobreNosotros{
+
+        
+        background-image: url("https://cdn.pixabay.com/photo/2016/12/06/14/33/log-cabin-1886620_1280.jpg");
+        
+
+    }
+
+    #sobreNosotros_info{
+        background-color: #34675ca7;
+        padding: 10px;
+
+    }
+
+    #sobreNosotros_title{
+        text-align: start;
+        font-size: 10px;
+        font-family: Playfair italic;
+        color: white;
+        padding: 5%;
+    }
+    
+    #sobreNosotros_parr{
+
+        font-family: 'Kumbh Sans', sans-serif;
+        padding: 5%;
+        color: white;
+
+
+    }
+
+    /*-----------------------------------------------------*/
+    /*---SECCION NUESTRAS CABAÑAS--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+    #seccion_nuestrasCabañas{
+
+        background-image: url("https://cdn.pixabay.com/photo/2018/01/30/22/50/forest-3119826_1280.jpg");
+
+       
+    }
+
+    #nuestrasCabañas_backgr{
+
+        background-color: #657c3a85;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    #nuestrasCabañas__title{
+        margin: 3%;
+        font-family: Playfair italic;
+        text-align: center;
+
+    }
+
+    #nuestrascabañas__cards{
+        :hover{
+            
+            box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -webkit-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -moz-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+
+            scale: 103%;
+
+        }
+
+        margin-left: -2%;
+
+    }
+    
+
+    #nuestrascabañas__cards__indv{
+        background-color: #8cb04a;
+        width: 20rem;
+        margin: 3%;
+        font-family: 'Kumbh Sans', sans-serif;
+        :hover{
+            box-shadow: none;
+        }
+       
+    }
+
+    #nuestrascabañas_card_img{
+         padding: 2%;
+         padding-top: 3%;
+    }
+    /*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+
+
+    /*-----------------------------------------------------*/
+    /*---SECCION SERVICIOS--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+    #servicios__backgr{
+        
+        background-color: #8cb04a;
+        padding: 50px;
+    }
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+
+    /*-----------------------------------------------------*/
+    /*---SECCION CONTACTANOS--------------------------------------------------*/
+    /*-----------------------------------------------------*/
+
+    #seccion_contacto{
+        background-image: url("https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg");
+        background-color: #3a7a6c;
+        padding: 50px;
+        color: white;
+    }
+
+    #contacto_backgr{
+
+        background-color: #265d51ab;
+        margin: -20%;
+        padding: auto;
+    }
+
+    #btn_contacto{
+        
+        border-radius: none;
+        color: white;
+        background-color: #9AC252;
+        
+        margin: 5%;
+        
+
+    }
+
+    label{
+        padding: 2%;
+    }
+
+    input{
+        padding: 2%;
+    }
+
+    
 }
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 
+    /*-----------------------------------------------------*/
+    /*---FOOTER--------------------------------------------------*/
+    /*-----------------------------------------------------*/
 
-/*-----------------------------------------------------*/
-/*-----------------------------------------------------*/
-/*-----------------------------------------------------*/
+    #footer{
+        background-color: #8cb04a;
+    }
+
+    #footer_title{
+        color: white;
+        font-family: 'Kumbh Sans', sans-serif;
+        text-align: center;
+        margin: 7%;
+    }
+
+    #footer_img_redes{
+
+        padding: 1%;
+
+       
+    }
+
+    #footer_logo{
+
+       
+
+        :hover{
+
+            scale: 110%;
+
+            border-radius: 50%;
+
+            box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -webkit-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+            -moz-box-shadow: 2px 7px 43px 13px rgba(255,255,255,0.83);
+
+        }
+
+    }
 
 /*-----------------------------------------------------*/
 /*-----------------------------------------------------*/
